@@ -1,6 +1,7 @@
 import RPi.GPIO as GPIO
 from time import sleep
 GPIO.setmode(GPIO.BCM) 
+ledPin = 22
 GPIO.setup(ledPin, GPIO.OUT)
 GPIO.output(ledPin, False)
 try:
