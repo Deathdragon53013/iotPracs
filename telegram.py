@@ -25,7 +25,7 @@ def action(msg):
         message=message+" red"
         GPIO.output(red,0)
         bot.sendMessage(chat_id, message)
-bot = telepot.Bot('626665131:AAHsNzQbqSj9GZ9-w2t4I') #paste your bot tokan here.
+bot = telepot.Bot('**********PasteYourCode**********')
 print(bot.getMe())
 MessageLoop(bot,action).run_as_thread()
 print ('I am listening...')
