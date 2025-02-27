@@ -15,8 +15,8 @@ try:
         sleep(1)
         Display.ShowDoublepoint(False)
         sleep(1)
-        Display.StopClock()
-        thread.interrupt_main()
+       
 except KeyboardInterrupt:
     print ("Properly closing the clock and open GPIO pins")
+    Display.StopClock()
     Display.cleanup()
