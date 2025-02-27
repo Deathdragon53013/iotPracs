@@ -91,7 +91,7 @@ def patternFour():
         time.sleep(0.1)
         ledpattern(1, 1, 1, 1, 1, 0, 1, 1)
         time.sleep(0.1)
-        ledpatern(1, 1, 1, 1, 1, 1, 0, 1)
+        ledpattern(1, 1, 1, 1, 1, 1, 0, 1)
         time.sleep(0.1)
         ledpattern(1, 1, 1, 1, 1, 1, 1, 0)
         time.sleep(0.1)
@@ -113,6 +113,7 @@ def patternFive():
         time.sleep(0.1)
         ledpattern(0, 1, 1, 1, 1, 1, 1, 1)
         time.sleep(0.1)
+time.sleep(1)
 
 try:
     while True:
